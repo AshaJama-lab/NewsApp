@@ -1,0 +1,67 @@
+# =====================
+# Dependencies
+# =====================
+node_modules/
+.pnp
+.pnp.js
+
+# =====================
+# Expo
+# =====================
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# =====================
+# Native
+# =====================
+ios/
+android/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# =====================
+# Metro bundler
+# =====================
+.metro-health-check*
+
+# =====================
+# Environment
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# Debug / Logs
+# =====================
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# =====================
+# IDE & OS
+# =====================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =====================
+# Build output
+# =====================
+build/
+*.tsbuildinfo
